@@ -1,0 +1,218 @@
+{
+    "data": {
+        "monthly_average_sentiment": {
+            "month": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "avg_sentiment": [
+                "positive",
+                "excellent",
+                "excellent",
+                "positive",
+                "positive",
+                "excellent",
+                "positive",
+                "positive",
+                "excellent",
+                "positive",
+                "positive",
+                "positive"
+            ]
+        },
+        "monthly_sentiment_count": {
+            "1": {
+                "sentiment": [
+                    "excellent",
+                    "neutral",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    11,
+                    1,
+                    2
+                ]
+            },
+            "2": {
+                "sentiment": [
+                    "excellent",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    16,
+                    1
+                ]
+            },
+            "3": {
+                "sentiment": [
+                    "excellent",
+                    "negative",
+                    "neutral",
+                    "positive"
+                ],
+                "monthly_count": [
+                    31,
+                    1,
+                    1,
+                    6
+                ]
+            },
+            "4": {
+                "sentiment": [
+                    "excellent",
+                    "negative",
+                    "neutral",
+                    "positive",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    17,
+                    3,
+                    2,
+                    2,
+                    3
+                ]
+            },
+            "5": {
+                "sentiment": [
+                    "excellent",
+                    "negative",
+                    "neutral",
+                    "positive",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    20,
+                    1,
+                    1,
+                    4,
+                    2
+                ]
+            },
+            "6": {
+                "sentiment": [
+                    "excellent"
+                ],
+                "monthly_count": [
+                    5
+                ]
+            },
+            "7": {
+                "sentiment": [
+                    "excellent",
+                    "negative",
+                    "positive",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    17,
+                    1,
+                    1,
+                    3
+                ]
+            },
+            "8": {
+                "sentiment": [
+                    "excellent",
+                    "negative",
+                    "positive",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    5,
+                    1,
+                    2,
+                    1
+                ]
+            },
+            "9": {
+                "sentiment": [
+                    "excellent",
+                    "positive"
+                ],
+                "monthly_count": [
+                    17,
+                    3
+                ]
+            },
+            "10": {
+                "sentiment": [
+                    "excellent",
+                    "negative",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    8,
+                    1,
+                    1
+                ]
+            },
+            "11": {
+                "sentiment": [
+                    "excellent",
+                    "positive",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    6,
+                    2,
+                    2
+                ]
+            },
+            "12": {
+                "sentiment": [
+                    "excellent",
+                    "neutral",
+                    "positive",
+                    "very negative"
+                ],
+                "monthly_count": [
+                    14,
+                    1,
+                    1,
+                    2
+                ]
+            }
+        },
+        "overall_avg_sentiment": "positive",
+        "overall_sentiment_count": {
+            "sentiment": [
+                "neutral",
+                "negative",
+                "very negative",
+                "positive",
+                "excellent"
+            ],
+            "sentiment_count": [
+                6,
+                8,
+                17,
+                21,
+                167
+            ]
+        },
+        "yearly_average_sentiment": {
+            "year": [
+                2022,
+                2023,
+                2024
+            ],
+            "avg_value": [
+                "excellent",
+                "positive",
+                "positive"
+            ]
+        }
+    },
+    "status": 200
+}
