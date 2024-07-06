@@ -30,22 +30,22 @@ function App() {
   return (
     <>
       <div className="flex flex-wrap justify-center gap-5 mt-3 ml-3">
-        <div className="w-full sm:w-1/2 max-w-3xl bg-white shadow-md rounded-lg p-6">
+        <div className="w-full sm:w-1/2 max-w-2xl bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4 text-center">Monthly Average</h2>
           {!loading && <Montly_Avg data={data} />}
         </div>
         
-        <div className="w-full sm:w-1/2 max-w-3xl bg-white shadow-md rounded-lg p-6">
+        <div className="w-full sm:w-1/2 max-w-2xl bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4 text-center">Monthly Data</h2>
           {!loading && <Montly_sentiment data={data} />}
         </div>
       </div>
       <div className="flex flex-wrap justify-center gap-5 m-5">
-        <div className="w-full sm:w-1/2 max-w-3xl bg-white shadow-md rounded-lg p-6">
+        <div className="w-full sm:w-1/2 max-w-2xl bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4 text-center">Yearly Average</h2>
           {!loading && <Yearly_Avg data={data} />}
         </div>
-        <div className="w-full sm:w-1/2 max-w-3xl bg-white shadow-md rounded-lg p-6">
+        <div className="w-full sm:w-1/2 max-w-2xl bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4 text-center">Overall Sentiment</h2>
           {!loading && <Overall_Sentiment data={data} />}
         </div>
